@@ -1,0 +1,93 @@
+html, body, ul, li, h1, h2, h3, h4,h5,h6 {
+	margin: 0px;
+	padding: 0px;
+	color:#999999;
+	list-style: none;
+}
+p {
+        color:#000000;
+	margin: 1.0em 10px;
+}
+a {
+	color: #999999;
+	text-decoration: none;
+}
+a:hover, a:active {
+color:#000000;
+}
+body {
+	background: white;
+	font: 11px Verdana;
+}
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+        height: 284px;
+}
+#header h1 {
+        height: 184px;
+	width: 282px;
+	margin: 0;
+	padding: 0;
+	color:black;
+	line-height: 1;
+}
+#header h1 em {
+	display: block;
+	padding: 20px 0 0 90px;
+	margin: 0;
+        color: black;
+	font-weight: normal;
+	font-size: 28px;
+	font-family:Palatino Linotype;
+}
+#header h1 strong {
+	display: block;
+	margin: 0px;
+	padding: 0px 0px 0px 30px;
+	font-weight: normal;
+        color:#4B4949;
+	font-size: 20px;
+	font-family:Monotype Corsiva;
+}
+
+#nav {
+        position: absolute;
+	top: 72px;
+	left: 115px;
+	width: 850px;
+	text-align: center;
+	z-index: 15;
+}
+#nav div {
+		padding: 0 10px;
+}
+#nav ul {
+        padding: 10px 0 10px 0px;
+}
+#body {
+	position: relative;
+	z-index: 10;
+	margin-left: 90px;
+	padding-top: 100px;
+	width: 890px;
+}
+#body h3 {
+	font-size: 18px;
+	font-family: arial;
+ color:black;
+
+}
+#body h5 {
+        margin-left:0px;
+	font-weight: normal;
+font-family:Haettenschweiler;
+	font-size: 25px;
+}
+#copyright {
+	margin-left:300px;
+	margin-top:180px;
+	width: 550px;
+}
